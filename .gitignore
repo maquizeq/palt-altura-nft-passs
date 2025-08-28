@@ -1,6 +1,7 @@
 node_modules/
 artifacts/
 cache/
-dist/
+/dist/
 .env
 web/.env.local
+.vercel
