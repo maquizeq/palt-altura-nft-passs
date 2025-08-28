@@ -44,7 +44,7 @@ npm run deploy:local
 
 1. Sube este repo a GitHub.
 2. En Vercel: "Import Project" y selecciona el repo.
-3. Raíz: `web/` (configurada en `vercel.json`).
+3. Root Directory: `web/` (tenemos `web/vercel.json`).
 4. Build Command: `npm run build` | Output: `dist`
 5. Variables (Project Settings → Environment Variables):
 	 - `VITE_CONTRACT_ADDRESS=0x9e9e19762727641723FcE12583eE798118B9fC9d`
