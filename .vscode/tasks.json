@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Hardhat",
+			"type": "shell",
+			"command": "npm run -s build"
+		},
+		{
+			"label": "Build Hardhat",
+			"type": "shell",
+			"command": "npm run -s build"
+		},
+		{
+			"label": "Test Hardhat",
+			"type": "shell",
+			"command": "npm run -s test"
+		},
+		{
+			"label": "Generate metadata",
+			"type": "shell",
+			"command": "npm run -s meta:gen"
+		},
+		{
+			"label": "Build Hardhat",
+			"type": "shell",
+			"command": "npm run -s build"
+		},
+		{
+			"label": "Deploy Sepolia",
+			"type": "shell",
+			"command": "npm run -s deploy:sepolia"
+		},
+		{
+			"label": "Deploy Sepolia",
+			"type": "shell",
+			"command": "npm run -s deploy:sepolia"
+		},
+		{
+			"label": "Verify Sepolia",
+			"type": "shell",
+			"command": "npx hardhat verify --network sepolia 0x9e9e19762727641723FcE12583eE798118B9fC9d \"Altura NFT Passs\" \"ANP\" \"ipfs://bafybeihuycbnhb5dqfo4xv55rdrj3g3wknapohmiu22u7bxxf646snzm64/\" 100"
+		}
+	]
+}
